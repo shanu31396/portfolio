@@ -68,7 +68,7 @@ main h1 {
     background-clip: text;
 }
 
-main h2{
+ main h2{
     text-align: center;
     font-size: 8rem;
     font-weight: 900;
@@ -78,7 +78,7 @@ main h2{
     color: transparent;
     background-clip: text;
     display: none;
-}
+} 
 
 .location{
     margin-top: 2rem;
@@ -153,11 +153,11 @@ main h2{
 }
 
 .planet-3D{
-    position: absolute;
-    top: -20%;
+     position: absolute;
+    /*top: -20%;
     right: -14%;
     width: 130%;
-    height: 130%;
+    height: 130%; */
 
 }
 
