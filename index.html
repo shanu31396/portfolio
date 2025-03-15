@@ -3,15 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Shantanu Kumar - App Developer Portfolio">
+    <meta name="theme-color" content="#1d2829">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Shantanu Kumar | App Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="https://prod.spline.design/xrHiLdoePvpq92Ul/scene.splinecode" as="fetch" crossorigin>
+    <link rel="preload" href="https://unpkg.com/@splinetool/viewer@1.9.77/build/spline-viewer.js" as="script">
 </head>
 
 <body>
     <header>
-        <div class="logo">SHANTANU KUMAR</span></div>
-        <button class="contact-btn">Contact</button>
+        <div class="logo" role="banner">SHANTANU KUMAR</div>
+        <button class="contact-btn" aria-label="Contact me">Contact</button>
     </header>
 
     <main>
@@ -19,7 +24,7 @@
             <h1>App Developer</h1>
             <h2>App Developer</h2>
             <div class="location">
-                <p>Based<br>In<br>India</p>
+                <p>Based In India</p>
             </div>
         </div>
 
@@ -29,14 +34,12 @@
                 🚀</p>
         </div>
 
-        <div class="scroll-down"></div>
+        <div class="scroll-down" aria-hidden="true"></div>
 
-        <spline-viewer class="planet-3D" url="https://prod.spline.design/xrHiLdoePvpq92Ul/scene.splinecode"></spline-viewer>
+        <spline-viewer class="planet-3D" loading="lazy" aria-hidden="true" url="https://prod.spline.design/xrHiLdoePvpq92Ul/scene.splinecode" background="transparent"></spline-viewer>
     </main>
 
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.77/build/spline-viewer.js"></script>
-    
-
 </body>
 
 </html>
